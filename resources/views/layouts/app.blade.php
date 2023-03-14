@@ -54,26 +54,26 @@
         </div>
     </div><!--/.site-preloader-->
 
-    
+
     <header class="main-header">
         <div class="top-header">
             <div class="container">
                 <div class="top-header-wrap">
                     <div class="top-left">
-                        <p>Reliable Taxi Service & Transport Solutions!</p>
+                        <p>Airport Limo Services</p>
                     </div>
                     <div class="top-right">
                         <ul class="top-header-nav">
-                            <li><a href="faqs">Help</a></li>
-                            <li><a href="contact">Support</a></li>
-                            <li><a href="faqs">FAQ</a></li>
+                            <li><a href="tel:4162600050">416-260-0050</a></li>
+                            <li><a href="tel:18772600051">1-877-2600051</a></li>
+                            <li><a href="mailto:info@blacklimo.ca">info@blacklimo.ca</a></li>
                         </ul>
-                        <ul class="header-social-share">
+                        <!-- <ul class="header-social-share">
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                             <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                                 <i class="las la-phone-volume"></i>
                             </div>
                             <div class="header-info-text">
-                                <h3><span>Call us now</span><a href="tel:5267214392">5267-214-392</a></h3>
+                                <h3><span>Airport Transfers</span><a href="tel:5267214392">Offered At Short Notice</a></h3>
                             </div>
                         </li>
                         <li>
@@ -98,7 +98,7 @@
                                 <i class="las la-envelope-open"></i>
                             </div>
                             <div class="header-info-text">
-                                <h3><span>Email now</span>Info.ridek@mail.com</h3>
+                                <h3><span>Business Meetings</span>You Will Arrive On Time</h3>
                             </div>
                         </li>
                         <li>
@@ -106,7 +106,7 @@
                                 <i class="las la-map-marked-alt"></i>
                             </div>
                             <div class="header-info-text">
-                                <h3><span>Halk Street</span>New York, USA - 2386</h3>
+                                <h3><span>Wedding Parties</span>Can Be Easily Arranged</h3>
                             </div>
                         </li>
                     </ul>
@@ -128,24 +128,41 @@
                                     <li><a href="index-2">Home Modern</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown_menu">
+                            <li>
+                                <a href="about-us">About Us</a>
+                            </li>
+                            <!-- <li class="dropdown_menu">
                                 <a href="about-us">Company</a>
                                 <ul>
-                                    <li><a href="about-us">About Us</a></li>
                                     <li><a href="about-company">About Company</a></li>
                                     <li><a href="our-services">Our Services</a></li>
                                     <li><a href="service-details">Services Details</a></li>
                                     <li><a href="book-taxi">Book a Ride</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li class="dropdown_menu">
-                                <a href="our-taxi">Our Taxi</a>
+                                <a href="our-services">Our Services</a>
                                 <ul>
-                                    <li><a href="our-taxi">Taxi Lists</a></li>
-                                    <li><a href="taxi-details">Taxi Details</a></li>
+                                    <li><a href="">Service Areas</a></li>
+                                    <!-- <li><a href="taxi-details">Taxi Details</a></li> -->
                                 </ul>
                             </li>
-                            <li class="dropdown_menu">
+                            <li>
+                                <a href="">Fleet</a>
+                            </li>
+                            <li>
+                                <a href="">Reservations</a>
+                            </li>
+                            <li>
+                                <a href="">Blog</a>
+                            </li>
+                            <!-- <li>
+                                <a href="">Credit Application</a>
+                            </li> -->
+                            <li>
+                                <a href="contact">Contact</a>
+                            </li>
+                            <!-- <li class="dropdown_menu">
                                 <a href="#">Pages</a>
                                 <ul>
                                     <li><a href="our-drivers">Our Drivers</a></li>
@@ -162,8 +179,7 @@
                                     <li><a href="blog-classic">Classic Posts</a></li>
                                     <li><a href="blog-details">Blog Details</a></li>
                                 </ul>
-                            </li>
-                            <li><a href="contact">Contact</a></li>
+                            </li> -->
                         </ul>
                     </div>
                     <div class="menu-right-item">
@@ -222,9 +238,9 @@
     <!--/.popup-sidebox-->
     <div id="sidebox-overlay"></div>
 
-    
+
     @yield('content')
-    
+
     <footer class="footer-section">
         <div class="footer-top-wrap bg-grey">
             <div class="container">
