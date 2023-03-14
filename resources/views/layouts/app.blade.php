@@ -156,9 +156,9 @@
                             <li>
                                 <a href="">Blog</a>
                             </li>
-                            <!-- <li>
+                            <li>
                                 <a href="">Credit Application</a>
-                            </li> -->
+                            </li>
                             <li>
                                 <a href="contact">Contact</a>
                             </li>
