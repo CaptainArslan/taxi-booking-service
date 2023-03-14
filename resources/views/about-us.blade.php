@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Taxi Booking system')
+@section('title', 'About Us')
 <!-- start page title -->
 @section('page-css')
 
