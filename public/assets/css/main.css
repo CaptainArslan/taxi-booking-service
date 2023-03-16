@@ -39,6 +39,10 @@
     margin-bottom: 20px;
 }
 
+.section-heading p a {
+    color: #ff9900;
+}
+
 .about-img {
     position: relative;
     margin-top: -80px;
@@ -1603,6 +1607,7 @@
 
 .cta-section-2 .check-list li {
     color: #fff;
+    /* font-size: x-large; */
 }
 
 .cta-section-2 .check-list li:not(:last-of-type) {

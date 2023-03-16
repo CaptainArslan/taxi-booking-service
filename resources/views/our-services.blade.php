@@ -6,17 +6,83 @@
 @endsection
 @section('content')
 
-<section class="page-header">
+<section class="page-header" style="background-image: url(../img/texture.jpg);">
     <div class="page-header-shape"></div>
     <div class="container">
         <div class="page-header-info">
             <h4>Our Services!</h4>
-            <h2>Start your journey with <br><span>Ridek Taxi</span> Company!</h2>
+            <h2>Visit the <span>Services areas</span><br> with Airport Black Limo!</h2>
             <p>Everything your taxi business <br>needs is already here! </p>
         </div>
     </div>
 </section>
 <!--/.page-header-->
+
+<section class="cta-section-2 footer-mid-wrap padding">
+    <div class="widget-title">
+        <h2 style="color: black;">Airport Limo Services</h2>
+        <span></span>
+    </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                <!-- <div class="cta-content">
+                    <h4>Airport Limo Services!</h4>
+                    <h2>Feel your journey with Ridek!</h2>
+                    <a href="book-taxi" class="default-btn">Book a Taxi</a>
+                </div> -->
+                <ul class="check-list">
+                    <li><i class="las la-arrow-right"></i>Ajax</li>
+                    <li><i class="las la-arrow-right"></i>Ancaster</li>
+                    <li><i class="las la-arrow-right"></i>Aurora</li>
+                    <li><i class="las la-arrow-right"></i>Barrie</li>
+                    <li><i class="las la-arrow-right"></i>Brampton</li>
+                    <li><i class="las la-arrow-right"></i>Brantford</li>
+                    <li><i class="las la-arrow-right"></i>Burlington</li>
+                    <li><i class="las la-arrow-right"></i>Caledon</li>
+                    <li><i class="las la-arrow-right"></i>Cambridge</li>
+                    <li><i class="las la-arrow-right"></i>Courtice</li>
+                    <li><i class="las la-arrow-right"></i>Guelph</li>
+                    <li><i class="las la-arrow-right"></i>Hamilton</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <ul class="check-list">
+                    <li><i class="las la-arrow-right"></i>Kitchener</li>
+                    <li><i class="las la-arrow-right"></i>Kingston</li>
+                    <li><i class="las la-arrow-right"></i>London</li>
+                    <li><i class="las la-arrow-right"></i>Milton</li>
+                    <li><i class="las la-arrow-right"></i>Markham</li>
+                    <li><i class="las la-arrow-right"></i>Mississauga</li>
+                    <li><i class="las la-arrow-right"></i>Muskoka</li>
+                    <li><i class="las la-arrow-right"></i>Niagra Falls</li>
+                    <li><i class="las la-arrow-right"></i>Newmarket</li>
+                    <li><i class="las la-arrow-right"></i>Oakville</li>
+                    <li><i class="las la-arrow-right"></i>Oshawa</li>
+                    <li><i class="las la-arrow-right"></i>Port Hope</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <!-- <div class="cta-men"></div> -->
+                <ul class="check-list">
+                    <li><i class="las la-arrow-right"></i>Peterborough</li>
+                    <li><i class="las la-arrow-right"></i>Pickering</li>
+                    <li><i class="las la-arrow-right"></i>Port Perry</li>
+                    <li><i class="las la-arrow-right"></i>Richmond Hill</li>
+                    <li><i class="las la-arrow-right"></i>Stouffville</li>
+                    <li><i class="las la-arrow-right"></i>St Cathreen</li>
+                    <li><i class="las la-arrow-right"></i>Toronto</li>
+                    <li><i class="las la-arrow-right"></i>Uxbridge</li>
+                    <li><i class="las la-arrow-right"></i>Vaughan</li>
+                    <li><i class="las la-arrow-right"></i>Waterloo</li>
+                    <li><i class="las la-arrow-right"></i>Whitby</li>
+                    <li><i class="las la-arrow-right"></i>Windsor</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/.cta-section-->
 
 <section class="service-section bg-grey bd-bottom padding">
     <div class="container">
@@ -122,33 +188,8 @@
 </section>
 <!--/.service-section-->
 
-<section class="cta-section-2 padding">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-4">
-                <div class="cta-content">
-                    <h4>Ridek Taxi Services!</h4>
-                    <h2>Feel your journey with Ridek!</h2>
-                    <a href="book-taxi" class="default-btn">Book a Taxi</a>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <ul class="check-list">
-                    <li><i class="las la-arrow-right"></i>Easy payment systems.</li>
-                    <li><i class="las la-arrow-right"></i>Make safety a top priority.</li>
-                    <li><i class="las la-arrow-right"></i>First and quick pickups.</li>
-                    <li><i class="las la-arrow-right"></i>Access Ridek globally.</li>
-                </ul>
-            </div>
-            <div class="col-lg-3">
-                <div class="cta-men"></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--/.cta-section-->
 
-@include('partials.blog-section')
+{{--@include('partials.blog-section')--}}
 
 @endsection
 @section('page-js')

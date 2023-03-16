@@ -34,6 +34,7 @@ Route::get('/index-2', function () {
 Route::get('/our-services', function () {
     return view('our-services');
 });
+
 Route::get('/service-details', function () {
     return view('service-details');
 });
@@ -66,4 +67,7 @@ Route::get('/blog-grid', function () {
 });
 Route::get('/blog-details', function () {
     return view('blog-details');
+});
+Route::get('/fleet', function () {
+    return view('fleet');
 });
