@@ -33,7 +33,7 @@
                                 <i class="las la-phone-volume"></i>
                             </div>
                             <div class="header-info-text">
-                                <h3><span>Airport Transfers</span><a href="tel:5267214392">Offered At Short Notice</a></h3>
+                                <h3><span>Airport Transfers</span><a href="tel:4162600050">Offered At Short Notice</a></h3>
                             </div>
                         </li>
                         <li>
@@ -167,14 +167,14 @@
             <div class="site-logo">
                 <a href="index"><img src="assets/img/logo-light.png" alt="logo"></a>
             </div>
-            <p>Everything your taxi business needs is already here! Ridek, a theme
+            <p>Everything your taxi business needs is already here! Black Limo, a theme
                 made for taxi service companies.</p>
             <ul class="sidebox-list">
-                <li class="call"><span>Call for ride:</span>5267-214-392</li>
+                <li class="call"><span>Call for ride:</span>416-260-0050</li>
                 <li>
-                    <span>You can find us at:</span>Halk Street New York, USA - 2386
+                    <span>You can find us at:</span>(Address)
                 </li>
-                <li><span>Email now:</span>Info.ridek@mail.com</li>
+                <li><span>Email now:</span>info@blacklimo.ca</li>
             </ul>
         </div>
     </div>
