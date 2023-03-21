@@ -96,12 +96,12 @@
                             <li>
                                 <a href="{{ route('book') }}">Reservations</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="{{ route('blog') }}">Blog</a>
-                            </li>
-                            <li>
+                            </li> -->
+                            <!-- <li>
                                 <a href="">Credit Application</a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="contact">Contact</a>
                             </li>
