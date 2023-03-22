@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
-                <div class="about-img p-4" style="background:url(https://www.blacklimo.ca/wp-content/uploads/2022/09/Toronto.jpg) no-repeat center top; height: 450px;">
+                <div class="about-img p-4">
                     <!-- <img class="about-img1 wow fade-in-left" data-wow-delay="200ms" src="assets/img/about-1.png" alt="img"> -->
                     <!-- <img class="about-img2 wow fade-in-bottom" data-wow-delay="400ms" src="assets/img/about-2.png" alt="img"> -->
                     <figure class="round-text"><img src="assets/img/experience-text-round.png" alt="img"></figure>
