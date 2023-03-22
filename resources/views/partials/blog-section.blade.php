@@ -22,7 +22,7 @@
                                         <li><i class="las la-calendar"></i>Jan 01 2022</li>
                                         <li><i class="las la-user"></i>Elliot Alderson</li>
                                     </ul>
-                                    <div class="post-content service-content">
+                                    <div class="post-content">
                                         <h3>
                                             <a href="blog-details" class="hover">Luxury Travel with Aurora Limousine Service</a>
                                         </h3>
@@ -46,7 +46,7 @@
                                         <li><i class="las la-calendar"></i>Jan 01 2022</li>
                                         <li><i class="las la-user"></i>Elliot Alderson</li>
                                     </ul>
-                                    <div class="post-content service-content">
+                                    <div class="post-content">
                                         <h3>
                                             <a href="blog-details">Barrie Limo Service – The Best You Could Ever Ask For</a>
                                         </h3>
@@ -67,7 +67,7 @@
                                         <li><i class="las la-calendar"></i>Jan 01 2022</li>
                                         <li><i class="las la-user"></i>Elliot Alderson</li>
                                     </ul>
-                                    <div class="post-content service-content">
+                                    <div class="post-content">
                                         <h3>
                                             <a href="blog-details">Ajax Limo Service: Limousines For All Occasions</a>
                                         </h3>
@@ -88,7 +88,7 @@
                                         <li><i class="las la-calendar"></i>Jan 01 2022</li>
                                         <li><i class="las la-user"></i>Elliot Alderson</li>
                                     </ul>
-                                    <div class="post-content service-content">
+                                    <div class="post-content">
                                         <h3>
                                             <a href="blog-details">Toronto Airport Limo Service</a>
                                         </h3>
@@ -109,7 +109,7 @@
                                         <li><i class="las la-calendar"></i>Jan 01 2022</li>
                                         <li><i class="las la-user"></i>Elliot Alderson</li>
                                     </ul>
-                                    <div class="post-content service-content">
+                                    <div class="post-content">
                                         <h3>
                                             <a href="blog-details">Whitby Limousine: Limo Service for all your Travel Needs</a>
                                         </h3>
@@ -130,7 +130,7 @@
                                         <li><i class="las la-calendar"></i>Jan 01 2022</li>
                                         <li><i class="las la-user"></i>Elliot Alderson</li>
                                     </ul>
-                                    <div class="post-content service-content">
+                                    <div class="post-content">
                                         <h3>
                                             <a href="blog-details">Book an Oshawa Limo Online to Make Your Ride Comfortable and Enjoyable</a>
                                         </h3>
@@ -151,7 +151,7 @@
                                         <li><i class="las la-calendar"></i>Jan 01 2022</li>
                                         <li><i class="las la-user"></i>Elliot Alderson</li>
                                     </ul>
-                                    <div class="post-content service-content">
+                                    <div class="post-content">
                                         <h3>
                                             <a href="blog-details">Kingston Limousine – Limo Service for Every Occasion</a>
                                         </h3>
@@ -172,7 +172,7 @@
                                         <li><i class="las la-calendar"></i>Jan 01 2022</li>
                                         <li><i class="las la-user"></i>Elliot Alderson</li>
                                     </ul>
-                                    <div class="post-content service-content">
+                                    <div class="post-content">
                                         <h3>
                                             <a href="blog-details">Cambridge Limousine Service For All Your Travel Needs</a>
                                         </h3>
@@ -193,7 +193,7 @@
                                         <li><i class="las la-calendar"></i>Jan 01 2022</li>
                                         <li><i class="las la-user"></i>Elliot Alderson</li>
                                     </ul>
-                                    <div class="post-content service-content">
+                                    <div class="post-content">
                                         <h3>
                                             <a href="blog-details">Georgetown Limousine Service For All kinds Of Events</a>
                                         </h3>

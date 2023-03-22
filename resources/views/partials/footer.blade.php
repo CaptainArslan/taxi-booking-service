@@ -116,7 +116,7 @@
     <!--/.footer-mid-wrap-->
     <div class="copyright-wrap">
         <div class="container">
-            <p>© <span id="currentYear"></span> DynamicLayers All Rights Reserved.</p>
+            <p>© <span id="currentYear"></span> Black Limo. All Rights Reserved. Developed by Saad Irfan</p>
         </div>
     </div>
     <!--/.copyright-wrap-->
