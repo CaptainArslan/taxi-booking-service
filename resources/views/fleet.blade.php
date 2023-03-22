@@ -1,3 +1,23 @@
+@extends('layouts.app')
+@section('title', 'Fleet')
+<!-- start page title -->
+@section('page-css')
+
+@endsection
+@section('content')
+
+<!-- <section class="page-header">
+    <div class="page-header-shape"></div>
+    <div class="container">
+        <div class="page-header-info">
+            <h4>Our Services!</h4>
+            <h2>Start your journey with <br><span>Black Limo</span> Company!</h2>
+            <p>Everything your taxi business <br>needs is already here! </p>
+        </div>
+    </div>
+</section> -->
+<!--/.page-header-->
+
 <section class="service-section bg-grey padding">
     <div class="bg-half"></div>
     <div class="container">
@@ -7,10 +27,11 @@
             <p>Choose from wide range of Fleets like Sedan, SUV's, Stretch Limo and <br> Van to meet your needs. We have professional chauffeurs <br> to give you better to and from airport limo service.</p>
         </div>
         <!--/.section-heading-->
-        <div class="swiper-outside">
-            <div class="service-carousel">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide col-lg-4 col-md-6 sm-padding">
+        <!--Tab Menu-->
+        <div class="tab-content" id="pricing-tab-content">
+            <div class="tab-pane fade show active" id="hybrid-taxi-content" role="tabpanel" aria-labelledby="hybrid-taxi-content">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 sm-padding">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
@@ -31,7 +52,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="swiper-slide col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
@@ -52,7 +73,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="swiper-slide col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
@@ -73,7 +94,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="swiper-slide col-lg-4 col-md-6 sm-padding">
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-6 sm-padding">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
@@ -94,7 +117,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="swiper-slide col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
@@ -115,7 +138,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="swiper-slide col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
@@ -205,12 +228,18 @@
                         </div>
                     </div> -->
                 </div>
-                <div class="swiper-pagination"></div><!-- Carousel Dots -->
+                <!-- <div class="swiper-pagination"></div> Carousel Dots -->
             </div>
             <!-- Carousel Arrows -->
-            <div class="swiper-nav swiper-next"><i class="las la-long-arrow-alt-right"></i></div>
-            <div class="swiper-nav swiper-prev"><i class="las la-long-arrow-alt-left"></i></div>
+            <!-- <div class="swiper-nav swiper-next"><i class="las la-long-arrow-alt-right"></i></div>
+            <div class="swiper-nav swiper-prev"><i class="las la-long-arrow-alt-left"></i></div> -->
         </div>
     </div>
 </section>
 <!--/.service-section-->
+
+
+@endsection
+@section('page-js')
+
+@endsection

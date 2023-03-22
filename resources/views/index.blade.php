@@ -9,9 +9,9 @@
     <div class="main-slider">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="slider-img"><img src="assets/img/slider-bg.jpg" alt="img" class="kenburns" style="animation-duration: 12000ms; "></div>
+                <div class="slider-img"></div>
                 <div class="car-holder">
-                    <img src="assets/img/car-1.png" alt="car" data-animation="car-animation" data-duration="1.5s">
+                    <!-- <img src="assets/img/car-1.png" alt="car" data-animation="car-animation" data-duration="1.5s"> -->
                     <div class="shape">
                         <div data-animation="slide-in-bottom" data-duration="1.5s" data-delay="0.3s"></div>
                         <div data-animation="fade-in" data-duration="1.5s" data-delay="0.2s"></div>
@@ -104,6 +104,8 @@
 
 @include('partials.service-section')
 
+@include('partials.testimonial-section')
+
 @include('partials.booking-section')
 
 @include('partials.pricing-section')
@@ -114,7 +116,7 @@
             <div class="col-lg-6">
                 <div class="section-heading wow fade-in-left" data-wow-delay="200ms">
                     <h4><span></span>Online Booking</h4>
-                    <h2>Get the Ridek Mobile app and Start Your Journey!</h2>
+                    <h2>Get the Black Limo Mobile app and Start Your Journey!</h2>
                     <p>We successfully cope with tasks of varying complexity, provide long-term guarantees and
                         regularly master technologies.</p>
                     <ul class="app-feature">
@@ -150,23 +152,7 @@
 </section>
 <!--/.download-section-->
 
-@include('partials.testimonial-section')
-
-<section class="cta-section padding">
-    <div class="cta-men wow fade-in-bottom" data-wow-delay="200ms"></div>
-    <div class="container">
-        <div class="cta-content">
-            <h2>Call Us Now <span>Book Your Taxi</span> <br> For Your Next Ride!</h2>
-            <p>We successfully cope with tasks of varying complexity,<br>guarantees and regularly master new
-                technologies.</p>
-            <div class="cta-call">
-                <i class="las la-phone-volume"></i>
-                <p><span>Call For Taxi</span><a href="tel:5267214392">5267-214-392</a></p>
-            </div>
-        </div>
-    </div>
-</section>
-<!--/.cta-section-->
+@include('partials.cta-section')
 
 @include('partials.blog-section')
 

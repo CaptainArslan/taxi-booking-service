@@ -34,12 +34,13 @@ Route::get('/index-2', function () {
 Route::get('/our-services', function () {
     return view('our-services');
 });
+
 Route::get('/service-details', function () {
     return view('service-details');
 });
 Route::get('/book-taxi', function () {
     return view('book-taxi');
-});
+})->name('book');
 Route::get('/our-taxi', function () {
     return view('our-taxi');
 });
@@ -63,7 +64,10 @@ Route::get('/404', function () {
 });
 Route::get('/blog-grid', function () {
     return view('blog-grid');
-});
+})->name('blog');
 Route::get('/blog-details', function () {
     return view('blog-details');
+});
+Route::get('/fleet', function () {
+    return view('fleet');
 });

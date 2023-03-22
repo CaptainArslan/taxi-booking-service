@@ -39,6 +39,10 @@
     margin-bottom: 20px;
 }
 
+.section-heading p a {
+    color: #ff9900;
+}
+
 .about-img {
     position: relative;
     margin-top: -80px;
@@ -46,7 +50,7 @@
 }
 
 .about-img:before {
-    background-color: #ff9900;
+    /* background-color: #ff9900; */
     border-radius: 2px;
     transform: skew(-20deg, 0deg);
     content: "";
@@ -274,7 +278,7 @@
     }
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
     .video-box {
         width: 100%;
         position: relative;
@@ -283,7 +287,7 @@
     }
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     .video-box {
         margin-top: 30px;
     }
@@ -464,8 +468,9 @@
 .service-content .read-more:hover:before {
     width: 100%;
 }
-@media (min-width: 1400px){
-    .bg-half{
+
+@media (min-width: 1400px) {
+    .bg-half {
         height: 59.2%;
     }
 }
@@ -521,12 +526,13 @@
     right: -45px;
 }
 
-.swiper-outside:hover .swiper-nav{
+.swiper-outside:hover .swiper-nav {
     visibility: visible;
     opacity: 1;
     left: -50px;
 }
-.swiper-outside:hover .swiper-nav.swiper-next{
+
+.swiper-outside:hover .swiper-nav.swiper-next {
     left: auto;
     right: -50px;
 }
@@ -1149,6 +1155,7 @@
 .download-btn a:hover {
     transform: translateY(-3px);
 }
+
 .taxi-holder {
     background-image: url(../img/taxi-background.png);
     background-repeat: no-repeat;
@@ -1253,16 +1260,19 @@
         right: 75px;
         top: 80px;
     }
+
     .taxi-holder .mockup {
         width: 230px;
         right: 190px;
         top: -55px;
     }
+
     .taxi-holder .charecter {
         width: 125px;
         right: 130px;
         top: 45px;
     }
+
     .location-marker {
         right: 15%;
         top: 50px;
@@ -1313,21 +1323,23 @@
     overflow: hidden;
 }
 
-@media ( max-width: 1200px){
-    .download-mockup{
+@media (max-width: 1200px) {
+    .download-mockup {
         right: 130px;
         bottom: -60px;
     }
-    .app-screen{
+
+    .app-screen {
         right: 60px;
     }
 }
 
-@media ( min-width: 1600px){
-    .download-mockup{
+@media (min-width: 1600px) {
+    .download-mockup {
         right: 320px;
     }
-    .app-screen{
+
+    .app-screen {
         right: 290px;
     }
 }
@@ -1595,6 +1607,7 @@
 
 .cta-section-2 .check-list li {
     color: #fff;
+    /* font-size: x-large; */
 }
 
 .cta-section-2 .check-list li:not(:last-of-type) {
@@ -1622,7 +1635,7 @@
     clip-path: polygon(0 0, 90% 0%, 100% 10%, 100% 100%, 0 100%);
 }
 
-.team-thumb img{
+.team-thumb img {
     width: 100%;
 }
 
@@ -1991,6 +2004,7 @@ textarea:-ms-input-placeholder {
     background-color: #F4F5F8;
     overflow: hidden;
 }
+
 .not-found-404 .footer-top-wrap {
     background-color: #222222;
 }
@@ -2104,6 +2118,22 @@ textarea:-ms-input-placeholder {
     z-index: 1;
 }
 
+.footer-mid-wrap .widget-title h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.footer-mid-wrap .widget-title span{
+    /* text-decoration-color: #ff9900; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 700px;
+    margin-right: 700px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #ff9900;
+}
+
 .footer-mid-wrap:before {
     background-image: url(../img/city-skiline.png);
     background-size: 100%;
@@ -2182,7 +2212,17 @@ textarea:-ms-input-placeholder {
 
 .footer-links li a,
 .footer-contact li {
-    color: #ccc;
+    color: #fff;
+    font-size: x-large;
+}
+
+.footer-links li a b,
+.footer-contact li a b {
+    color: #ff9900;
+}
+
+.footer-contact li a {
+    color: #fff;
 }
 
 .footer-contact li span {
@@ -2328,8 +2368,8 @@ textarea:-ms-input-placeholder {
     margin: 0;
 }
 
-@media (max-width: 992px){
-    .footer-top .footer-call:before{
+@media (max-width: 992px) {
+    .footer-top .footer-call:before {
         left: -200px;
     }
 }
