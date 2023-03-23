@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/blog.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+    <!-- Only for Wizard -->
+    <link rel="stylesheet" href="{{ asset('assets/css/reservation.css') }}">
     @yield('page-css')
 </head>
 
@@ -55,6 +57,8 @@
     <script src="{{ asset('assets/js/vendor/wow.min.js') }}"></script>
     <script src="{{ asset('assets/js/book-ride.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    <!-- Only for Wizard -->
+    <script src="{{ asset('assets/js/reserve.js') }}"></script>
     @yield('page-js')
 </body>
 
