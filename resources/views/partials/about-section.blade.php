@@ -2,9 +2,13 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
-                <div class="about-img p-4" style="background:url(https://www.blacklimo.ca/wp-content/uploads/2022/09/Toronto.jpg) no-repeat center top; height: 450px;">
-                    <!-- <img class="about-img1 wow fade-in-left" data-wow-delay="200ms" src="assets/img/about-1.png" alt="img"> -->
-                    <!-- <img class="about-img2 wow fade-in-bottom" data-wow-delay="400ms" src="assets/img/about-2.png" alt="img"> -->
+                <div class="about-img p-4">
+                    <!-- <img class="about-img1 wow fade-in-left" data-wow-delay="200ms" src="assets/img/about-2.png" alt="img"> -->
+                    <img class="about-img2 wow fade-in-bottom" data-wow-delay="400ms" src="assets/img/Stretch-Limousine.png" alt="img" style="right: 155px;">
+                    <img class="about-img2 wow fade-in-bottom" data-wow-delay="400ms" src="assets/img/linus.png" alt="img" style="right: 65px;">
+                    <img class="about-img2 wow fade-in-bottom" data-wow-delay="400ms" src="assets/img/SUV.png" alt="img" style="right: -35px;">
+                    <!-- <img class="about-img2 wow fade-in-bottom" data-wow-delay="400ms" src="assets/img/Class-Mercedes22.png" alt="img" style="width:28%; left: -10px; bottom: -25px;"> -->
+                    <!-- <img class="about-img2 wow fade-in-bottom" data-wow-delay="400ms" src="assets/img/sprinter-rev.png" alt="img" style="width: 25%; left: -20px; bottom: -25px;"> -->
                     <figure class="round-text"><img src="assets/img/experience-text-round.png" alt="img"></figure>
                 </div>
             </div>

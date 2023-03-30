@@ -45,6 +45,9 @@
 
 .about-img {
     position: relative;
+    background: url(../img/about3.jpg) no-repeat center top; 
+    height: 450px;
+    object-fit: fill;
     margin-top: -80px;
     z-index: 1;
 }
