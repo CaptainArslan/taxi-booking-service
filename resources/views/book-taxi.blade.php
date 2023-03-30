@@ -234,7 +234,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-lg-10 offset-lg-1">
                 <form action="book-ride.php" id="book-taxi-ride">
                     <div class="taxi-booking-form">
@@ -289,7 +289,7 @@
                     <div id="form-messages" class="alert" role="alert"></div>
                 </form> <!-- Booking Form -->
             </div>
-        </div>
+        </div> --}}
     </div>
 </div>
 <!--/.booking-form-->
