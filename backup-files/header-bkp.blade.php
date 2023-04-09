@@ -11,18 +11,22 @@
                         <li><a href="tel:18772600051">1-877-2600051</a></li>
                         <li><a href="mailto:info@blacklimo.ca">info@blacklimo.ca</a></li>
                     </ul>
+                    <!-- <ul class="header-social-share">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul> -->
                 </div>
             </div>
         </div>
-    </div>
-    <!--/.top-header-->
+    </div><!--/.top-header-->
     <div class="mid-header">
         <div class="container">
             <div class="mid-header-wrap">
                 <div class="site-logo">
-                    <a href="index"><img src="{{ getLogo('dark') }}" alt="Logo"></a>
-                </div>
-                <!--/.site-logo-->
+                    <a href="index"><img src="assets/img/logo-dark.png" alt="Logo"></a>
+                </div><!--/.site-logo-->
                 <ul class="header-info">
                     <li>
                         <div class="header-info-icon">
@@ -62,14 +66,28 @@
                     <ul class="nav-menu">
                         <li class="active dropdown_menu">
                             <a href="index">Home</a>
+                            <!-- <ul>
+                                    <li><a href="index">Home Default</a></li>
+                                    <li><a href="index-2">Home Modern</a></li>
+                                </ul> -->
                         </li>
                         <li>
                             <a href="about-us">About Us</a>
                         </li>
+                        <!-- <li class="dropdown_menu">
+                                <a href="about-us">Company</a>
+                                <ul>
+                                    <li><a href="about-company">About Company</a></li>
+                                    <li><a href="our-services">Our Services</a></li>
+                                    <li><a href="service-details">Services Details</a></li>
+                                    <li><a href="book-taxi">Book a Ride</a></li>
+                                </ul>
+                            </li> -->
                         <li class="dropdown_menu">
                             <a href="our-services">Our Services</a>
                             <ul>
                                 <li><a href="our-services">Service Areas</a></li>
+                                <!-- <li><a href="taxi-details">Taxi Details</a></li> -->
                             </ul>
                         </li>
                         <li>
@@ -78,9 +96,33 @@
                         <li>
                             <a href="{{ route('book') }}">Reservations</a>
                         </li>
+                        <!-- <li>
+                                <a href="{{ route('blog') }}">Blog</a>
+                            </li> -->
+                        <!-- <li>
+                                <a href="">Credit Application</a>
+                            </li> -->
                         <li>
                             <a href="contact">Contact</a>
                         </li>
+                        <!-- <li class="dropdown_menu">
+                                <a href="#">Pages</a>
+                                <ul>
+                                    <li><a href="our-drivers">Our Drivers</a></li>
+                                    <li><a href="driver-details">Driver Details</a></li>
+                                    <li><a href="testimonials">Customer Reviews</a></li>
+                                    <li><a href="faqs">Help &amp; Faq's</a></li>
+                                    <li><a href="404">404 Error</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown_menu">
+                                <a href="blog-grid">Blog</a>
+                                <ul>
+                                    <li><a href="blog-grid">Grid Posts</a></li>
+                                    <li><a href="blog-classic">Classic Posts</a></li>
+                                    <li><a href="blog-details">Blog Details</a></li>
+                                </ul>
+                            </li> -->
                     </ul>
                 </div>
                 <div class="menu-right-item">
