@@ -37,7 +37,7 @@
                         <li>Per Mile/KM: <span>$4.20</span></li>
                         <li>Per Stopped Trafic: <span>$1.50</span></li>
                         <li>Passengers: <span>4 Person</span></li>
-                        <li><a href="book-taxi" class="default-btn">Book Taxi Now</a></li>
+                        <li><a href="taxi-details" class="default-btn">Read More</a></li>
                     </ul>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                         <li>Per Mile/KM: <span>$4.20</span></li>
                         <li>Per Stopped Trafic: <span>$1.50</span></li>
                         <li>Passengers: <span>4 Person</span></li>
-                        <li><a href="book-taxi" class="default-btn">Book Taxi Now</a></li>
+                        <li><a href="taxi-details" class="default-btn">Read More</a></li>
                     </ul>
                 </div>
             </div>
@@ -79,7 +79,7 @@
                         <li>Per Mile/KM: <span>$4.20</span></li>
                         <li>Per Stopped Trafic: <span>$1.50</span></li>
                         <li>Passengers: <span>4 Person</span></li>
-                        <li><a href="book-taxi" class="default-btn">Book Taxi Now</a></li>
+                        <li><a href="taxi-details" class="default-btn">Read More</a></li>
                     </ul>
                 </div>
             </div>

@@ -9,7 +9,7 @@ html {
 
 /*Background color*/
 #grad1 {
-    background-color: : #9C27B0;
+    background-color: #9C27B0;
     background-image: linear-gradient(120deg, #ff9900, #81D4FA);
 }
 
@@ -24,7 +24,7 @@ html {
     background: white;
     border: 0 none;
     border-radius: 0px;
-    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2); */
     padding: 20px 40px 30px 40px;
     box-sizing: border-box;
     width: 94%;
@@ -56,12 +56,14 @@ html {
     text-align: left;
     color: #9E9E9E;
 }
-#msform fieldset .form-card .form-field label{
+
+#msform fieldset .form-card .form-field label {
     color: #000000;
     font-weight: bold;
 }
 
-#msform input, #msform textarea {
+#msform input,
+#msform textarea {
     padding: 0px 8px 4px 8px;
     border: none;
     border-bottom: 1px solid #ccc;
@@ -76,7 +78,8 @@ html {
     letter-spacing: 1px;
 }
 
-#msform input:focus, #msform textarea:focus {
+#msform input:focus,
+#msform textarea:focus {
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
@@ -99,7 +102,8 @@ html {
     margin: 10px 5px;
 }
 
-#msform .action-button:hover, #msform .action-button:focus {
+#msform .action-button:hover,
+#msform .action-button:focus {
     box-shadow: 0 0 0 2px white, 0 0 0 3px skyblue;
 }
 
@@ -116,7 +120,8 @@ html {
     margin: 10px 5px;
 }
 
-#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
     box-shadow: 0 0 0 2px white, 0 0 0 3px #616161;
 }
 
@@ -217,7 +222,8 @@ select.list-dt:focus {
 }
 
 /*Color number of the step and the connector before it*/
-#progressbar li.active:before, #progressbar li.active:after {
+#progressbar li.active:before,
+#progressbar li.active:after {
     background: #ff9900;
 }
 
@@ -228,15 +234,15 @@ select.list-dt:focus {
 }
 
 .radio {
-    display:inline-block;
+    display: inline-block;
     width: 204;
     height: 104;
     border-radius: 0;
     background: lightblue;
     box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
-    cursor:pointer;
-    margin: 8px 2px; 
+    cursor: pointer;
+    margin: 8px 2px;
 }
 
 .radio:hover {
@@ -248,7 +254,7 @@ select.list-dt:focus {
 }
 
 /*Fit image in bootstrap div*/
-.fit-image{
+.fit-image {
     width: 100%;
     object-fit: cover;
 }

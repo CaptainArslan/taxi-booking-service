@@ -106,9 +106,11 @@
 
 @include('partials.testimonial-section')
 
-@include('partials.booking-section')
+{{-- @include('partials.booking-section') --}}
 
 @include('partials.pricing-section')
+
+@include('partials.cta-section')
 
 <section class="download-section bd-bottom padding">
     <div class="container">
@@ -152,9 +154,9 @@
 </section>
 <!--/.download-section-->
 
-@include('partials.cta-section')
 
-@include('partials.blog-section')
+
+{{-- @include('partials.blog-section') --}}
 
 
 @endsection

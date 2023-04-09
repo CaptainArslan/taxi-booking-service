@@ -48,7 +48,7 @@
                                 <li>Per Mile/KM: <span>$0.00</span></li>
                                 <li>Passengers: <span>3 Person</span></li>
                                 <li>Bags: <span>2-3</span></li>
-                                <li><a href="book-taxi" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="taxi-details" class="default-btn">Read More</a></li>
                             </ul>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                                 <li>Per Mile/KM: <span>$0.00</span></li>
                                 <li>Passengers: <span>2 Person</span></li>
                                 <li>Bags: <span>2-3</span></li>
-                                <li><a href="book-taxi" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="taxi-details" class="default-btn">Read More</a></li>
                             </ul>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                                 <li>Per Mile/KM: <span>$0.00</span></li>
                                 <li>Passengers: <span>6-7 Person</span></li>
                                 <li>Bags: <span>6-7</span></li>
-                                <li><a href="book-taxi" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="taxi-details" class="default-btn">Read More</a></li>
                             </ul>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                                 <li>Per Mile/KM: <span>$0.00</span></li>
                                 <li>Passengers: <span>6 Person</span></li>
                                 <li>Bags: <span>6</span></li>
-                                <li><a href="book-taxi" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="taxi-details" class="default-btn">Read More</a></li>
                             </ul>
                         </div>
                     </div>
@@ -134,7 +134,7 @@
                                 <li>Per Mile/KM: <span>$0.00</span></li>
                                 <li>Passengers: <span>10 Person</span></li>
                                 <li>Bags: <span>10</span></li>
-                                <li><a href="book-taxi" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="taxi-details" class="default-btn">Read More</a></li>
                             </ul>
                         </div>
                     </div>
@@ -155,7 +155,7 @@
                                 <li>Per Mile/KM: <span>$0.00</span></li>
                                 <li>Passengers: <span>11 Person</span></li>
                                 <li>Bags: <span>11</span></li>
-                                <li><a href="book-taxi" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="taxi-details" class="default-btn">Read More</a></li>
                             </ul>
                         </div>
                     </div>
